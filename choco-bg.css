@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right, #1e130c, #9a8478);
+}
+
+.back-nav-choco {
+  text-decoration: none;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+a:hover {
+  color: #f79d00;
+}
+
+@media (max-width: 767px) {
+  .back-nav-choco {
+    font-size: 19px;
+  }
+}
